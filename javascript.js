@@ -5,11 +5,11 @@ let andB = false;
 function notGate () {
     
     if (notA == false) {
-        document.getElementById("notImage").src = "notOn.JPG"
+        document.getElementById("notImage").src = "NotOn.JPG"
         notA = true;
     }
     else {
-        document.getElementById("notImage").src = "notOff.JPG"
+        document.getElementById("notImage").src = "NotOff.JPG"
         notA = false;
     }
 
