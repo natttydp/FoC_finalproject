@@ -15,7 +15,9 @@ html {
 }
 
 body {
+    background-image: url("Computer Science.jpg");
     background-color: rgb(52,58,64);
+    background-size: cover;
 }
 nav {
     top:0;
@@ -73,24 +75,33 @@ nav a:hover {
 .main {
     text-align: center;
     
-    background-color: white;
+    
+
     margin: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
-    
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+
    
 }
 
 .main p {
-    text-align: left;
-    margin: 50px;
+    
+    /* margin: 50px; */
+
+    color: white;
 }
 
+
+
 h1 {
+    color: white;
     margin-bottom: 10px;
     font-size: 3em;
 }
@@ -112,7 +123,8 @@ li {
     opacity: 1;
     justify-content: center;
     margin: 20px;
-    background-color: rgb(83, 82, 82);
+    background-color: rgba(22, 52, 61, 0.75);
+
     border-radius: 10px;
     font-size: 1.5em;
     padding: 10px;
@@ -125,7 +137,8 @@ button {
     opacity: 1;
     justify-content: center;
     
-    background-color: rgb(83, 82, 82);
+    background-color: rgba(52,58,64, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
     border: none;
     transition: 0.1s;
@@ -158,6 +171,26 @@ li:hover {
     border-bottom: 1px solid white;
 }
 
+.bannarImage {
+    width: 100%;
+}
 
+.fadeImage {
+    border: 2px solid #000;
+  border-image: linear-gradient(to right, transparent, #000) 1;
+}
 
+.aboutMe {
+    display: flex; /* Use flexbox to create a flexible layout */
+  align-items: center; /* Align items vertically in the center */
+}
 
+.imageMe {
+    width: 300px; /* Adjust the width of the image as per your requirements */
+  margin-right: 10px; /* Add some spacing between the image and the paragraph */
+
+}
+
+.pMe {
+    flex-grow: 1; /* Allow the paragraph to take up remaining space */
+}
